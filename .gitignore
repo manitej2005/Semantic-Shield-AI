@@ -1,0 +1,73 @@
+# =================================================================
+# SemanticShield AI - Master GitIgnore Rules
+# =================================================================
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/.venv/
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+.mypy_cache/
+.ruff_cache/
+
+# Node & Dependencies
+node_modules/
+frontend/node_modules/
+web_modules/
+
+# Build & Output Artifacts
+build/
+dist/
+dist-ssr/
+frontend/dist/
+*.egg-info/
+.eggs/
+
+# SQLite & Databases
+*.db
+*.sqlite
+*.sqlite3
+semanticshield.db
+backend/semanticshield.db
+
+# Executables & Large Binaries
+bin/
+*.exe
+
+# IDE & Operating System Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Diagnostic Logs & Temporary Test Artifacts
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+output.txt
+scratch/
+test*.tex
+test*.pdf
