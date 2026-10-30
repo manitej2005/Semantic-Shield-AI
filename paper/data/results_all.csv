@@ -1,0 +1,85 @@
+run_id,scenario_id,scenario_name,behavior_profile,decision,risk_score,severity,confidence_pct,duration_seconds,model_name,fallback_used,timestamp,repetition
+RUN_001,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,trusting,VULNERABLE,84,DANGEROUS,98,33.46,gemini-3.5-flash,False,2026-10-08T17:10:39.157586+00:00,1
+RUN_002,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,security_conscious,SAFE,18,SAFE,98,14.31,gemini-3.5-flash,False,2026-10-08T17:11:15.508014+00:00,1
+RUN_003,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,overwhelmed,VULNERABLE,84,DANGEROUS,98,30.57,gemini-3.5-flash,False,2026-10-08T17:11:32.820023+00:00,1
+RUN_004,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,executive,VULNERABLE,84,DANGEROUS,98,27.34,gemini-3.5-flash,False,2026-10-08T17:12:06.388855+00:00,1
+RUN_005,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,trusting,VULNERABLE,84,DANGEROUS,98,22.62,gemini-3.5-flash,False,2026-10-08T17:12:36.729728+00:00,1
+RUN_006,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,security_conscious,SAFE,18,SAFE,98,19.54,gemini-3.5-flash,False,2026-10-08T17:13:02.357589+00:00,1
+RUN_007,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,overwhelmed,VULNERABLE,84,DANGEROUS,98,23.82,gemini-3.5-flash,False,2026-10-08T17:13:24.895753+00:00,1
+RUN_008,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,executive,SAFE,18,SAFE,98,24.03,gemini-3.5-flash,False,2026-10-08T17:13:51.715276+00:00,1
+RUN_009,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),trusting,VULNERABLE,84,DANGEROUS,98,26.23,gemini-3.5-flash,False,2026-10-08T17:14:18.750778+00:00,1
+RUN_010,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),security_conscious,SAFE,18,SAFE,98,27.99,gemini-3.5-flash,False,2026-10-08T17:14:47.982029+00:00,1
+RUN_011,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),overwhelmed,VULNERABLE,84,DANGEROUS,98,30.9,gemini-3.5-flash,False,2026-10-08T17:15:18.973498+00:00,1
+RUN_012,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),executive,SAFE,18,SAFE,98,40.45,gemini-3.5-flash,False,2026-10-08T17:15:52.875797+00:00,1
+RUN_013,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,trusting,VULNERABLE,84,DANGEROUS,98,26.39,gemini-3.5-flash,False,2026-10-08T17:16:36.326396+00:00,1
+RUN_014,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,security_conscious,SAFE,18,SAFE,98,32.67,gemini-3.5-flash,False,2026-10-08T17:17:05.719793+00:00,1
+RUN_015,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,overwhelmed,VULNERABLE,84,DANGEROUS,98,24.27,gemini-3.5-flash,False,2026-10-08T17:17:41.382368+00:00,1
+RUN_016,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,executive,SAFE,18,SAFE,98,24.75,gemini-3.5-flash,False,2026-10-08T17:18:08.653098+00:00,1
+RUN_017,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,trusting,VULNERABLE,84,DANGEROUS,98,26.12,gemini-3.5-flash,False,2026-10-08T17:18:36.402634+00:00,1
+RUN_018,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,security_conscious,SAFE,18,SAFE,98,28.14,gemini-3.5-flash,False,2026-10-08T17:19:05.523050+00:00,1
+RUN_019,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,overwhelmed,SAFE,18,SAFE,98,37.26,gemini-3.5-flash,False,2026-10-08T17:19:36.660779+00:00,1
+RUN_020,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,executive,VULNERABLE,84,DANGEROUS,98,44.82,gemini-3.5-flash,False,2026-10-08T17:20:16.930336+00:00,1
+RUN_021,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,trusting,VULNERABLE,84,DANGEROUS,98,47.19,gemini-3.5-flash,False,2026-10-08T17:21:04.748271+00:00,1
+RUN_022,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,security_conscious,SAFE,18,SAFE,98,24.57,gemini-3.5-flash,False,2026-10-08T17:21:54.940743+00:00,1
+RUN_023,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,overwhelmed,VULNERABLE,84,DANGEROUS,98,36.0,gemini-3.5-flash,False,2026-10-08T17:22:22.511481+00:00,1
+RUN_024,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,executive,VULNERABLE,84,DANGEROUS,98,27.83,gemini-3.5-flash,False,2026-10-08T17:23:01.511561+00:00,1
+RUN_025,SIM-EML-007,Legitimate Team Weekly Standup Meeting,trusting,VULNERABLE,84,DANGEROUS,98,22.51,gemini-3.5-flash,False,2026-10-08T17:23:32.343813+00:00,1
+RUN_026,SIM-EML-007,Legitimate Team Weekly Standup Meeting,security_conscious,SAFE,18,SAFE,98,31.25,gemini-3.5-flash,False,2026-10-08T17:23:57.862326+00:00,1
+RUN_027,SIM-EML-007,Legitimate Team Weekly Standup Meeting,overwhelmed,SAFE,18,SAFE,98,33.24,gemini-3.5-flash,False,2026-10-08T17:24:32.114350+00:00,1
+RUN_028,SIM-EML-007,Legitimate Team Weekly Standup Meeting,executive,SAFE,18,SAFE,98,52.06,gemini-3.5-flash,False,2026-10-08T17:25:08.361182+00:00,1
+REP2_RUN_001,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,trusting,VULNERABLE,84,DANGEROUS,98,8.05,gemini-3.5-flash,False,2026-10-09T07:10:58.608000+00:00,2
+REP2_RUN_002,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,security_conscious,SAFE,18,SAFE,98,8.62,gemini-3.5-flash,False,2026-10-09T07:11:09.282212+00:00,2
+REP2_RUN_003,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,overwhelmed,VULNERABLE,84,DANGEROUS,98,9.66,gemini-3.5-flash,False,2026-10-09T07:11:19.911863+00:00,2
+REP2_RUN_004,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,executive,SAFE,18,SAFE,98,5.25,gemini-3.5-flash,False,2026-10-09T07:11:31.590444+00:00,2
+REP2_RUN_005,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,trusting,VULNERABLE,84,DANGEROUS,98,9.18,gemini-3.5-flash,False,2026-10-09T07:11:38.854270+00:00,2
+REP2_RUN_006,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,security_conscious,SAFE,18,SAFE,98,7.58,gemini-3.5-flash,False,2026-10-09T07:11:50.051545+00:00,2
+REP2_RUN_007,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,overwhelmed,VULNERABLE,84,DANGEROUS,98,8.33,gemini-3.5-flash,False,2026-10-09T07:11:59.645674+00:00,2
+REP2_RUN_008,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,executive,VULNERABLE,84,DANGEROUS,98,9.03,gemini-3.5-flash,False,2026-10-09T07:12:09.995176+00:00,2
+REP2_RUN_009,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),trusting,VULNERABLE,84,DANGEROUS,98,7.83,gemini-3.5-flash,False,2026-10-09T07:12:21.040534+00:00,2
+REP2_RUN_010,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),security_conscious,SAFE,18,SAFE,98,3.54,gemini-3.5-flash,False,2026-10-09T07:12:30.887172+00:00,2
+REP2_RUN_011,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),overwhelmed,VULNERABLE,84,DANGEROUS,98,3.0,gemini-3.5-flash,False,2026-10-09T07:12:36.437777+00:00,2
+REP2_RUN_012,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),executive,SAFE,18,SAFE,98,2.49,gemini-3.5-flash,False,2026-10-09T07:12:41.450274+00:00,2
+REP2_RUN_013,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,trusting,VULNERABLE,84,DANGEROUS,98,3.5,gemini-3.5-flash,False,2026-10-09T07:12:45.950024+00:00,2
+REP2_RUN_014,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,security_conscious,SAFE,18,SAFE,98,3.45,gemini-3.5-flash,False,2026-10-09T07:12:51.480935+00:00,2
+REP2_RUN_015,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,overwhelmed,VULNERABLE,84,DANGEROUS,98,3.03,gemini-3.5-flash,False,2026-10-09T07:12:56.962443+00:00,2
+REP2_RUN_016,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,executive,SAFE,18,SAFE,98,3.18,gemini-3.5-flash,False,2026-10-09T07:13:02.008993+00:00,2
+REP2_RUN_017,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,trusting,VULNERABLE,84,DANGEROUS,98,2.71,gemini-3.5-flash,False,2026-10-09T07:13:07.209111+00:00,2
+REP2_RUN_018,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,security_conscious,SAFE,18,SAFE,98,2.13,gemini-3.5-flash,False,2026-10-09T07:13:11.936378+00:00,2
+REP2_RUN_019,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,overwhelmed,VULNERABLE,84,DANGEROUS,98,2.34,gemini-3.5-flash,False,2026-10-09T07:13:16.089720+00:00,2
+REP2_RUN_020,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,executive,VULNERABLE,84,DANGEROUS,98,2.42,gemini-3.5-flash,False,2026-10-09T07:13:20.450721+00:00,2
+REP2_RUN_021,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,trusting,VULNERABLE,84,DANGEROUS,98,4.77,gemini-3.5-flash,False,2026-10-09T07:13:24.903135+00:00,2
+REP2_RUN_022,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,security_conscious,SAFE,18,SAFE,98,2.07,gemini-3.5-flash,False,2026-10-09T07:13:31.683920+00:00,2
+REP2_RUN_023,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,overwhelmed,VULNERABLE,84,DANGEROUS,98,2.72,gemini-3.5-flash,False,2026-10-09T07:13:35.766359+00:00,2
+REP2_RUN_024,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,executive,VULNERABLE,84,DANGEROUS,98,3.08,gemini-3.5-flash,False,2026-10-09T07:13:40.516295+00:00,2
+REP2_RUN_025,SIM-EML-007,Legitimate Team Weekly Standup Meeting,trusting,VULNERABLE,84,DANGEROUS,98,2.31,gemini-3.5-flash,False,2026-10-09T07:13:45.606045+00:00,2
+REP2_RUN_026,SIM-EML-007,Legitimate Team Weekly Standup Meeting,security_conscious,SAFE,18,SAFE,98,3.01,gemini-3.5-flash,False,2026-10-09T07:13:49.928013+00:00,2
+REP2_RUN_027,SIM-EML-007,Legitimate Team Weekly Standup Meeting,overwhelmed,SAFE,18,SAFE,98,2.4,gemini-3.5-flash,False,2026-10-09T07:13:54.958874+00:00,2
+REP2_RUN_028,SIM-EML-007,Legitimate Team Weekly Standup Meeting,executive,VULNERABLE,84,DANGEROUS,98,4.29,gemini-3.5-flash,False,2026-10-09T07:13:59.373433+00:00,2
+REP3_RUN_001,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,trusting,VULNERABLE,84,DANGEROUS,98,1.94,gemini-3.5-flash,False,2026-10-09T07:14:05.672378+00:00,3
+REP3_RUN_002,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,security_conscious,SAFE,18,SAFE,98,2.88,gemini-3.5-flash,False,2026-10-09T07:14:09.621575+00:00,3
+REP3_RUN_003,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,overwhelmed,VULNERABLE,84,DANGEROUS,98,2.65,gemini-3.5-flash,False,2026-10-09T07:14:14.540002+00:00,3
+REP3_RUN_004,SIM-EML-001,Microsoft 365 Urgent Password Reset Scam,executive,SAFE,18,SAFE,98,2.63,gemini-3.5-flash,False,2026-10-09T07:14:19.201536+00:00,3
+REP3_RUN_005,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,trusting,VULNERABLE,84,DANGEROUS,98,2.14,gemini-3.5-flash,False,2026-10-09T07:14:23.848719+00:00,3
+REP3_RUN_006,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,security_conscious,SAFE,18,SAFE,98,2.07,gemini-3.5-flash,False,2026-10-09T07:14:27.996356+00:00,3
+REP3_RUN_007,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,overwhelmed,VULNERABLE,84,DANGEROUS,98,2.1,gemini-3.5-flash,False,2026-10-09T07:14:32.079875+00:00,3
+REP3_RUN_008,SIM-EML-002,Urgent Executive Wire Transfer Re-Verification,executive,VULNERABLE,84,DANGEROUS,98,2.39,gemini-3.5-flash,False,2026-10-09T07:14:36.195410+00:00,3
+REP3_RUN_009,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),trusting,VULNERABLE,84,DANGEROUS,98,3.17,gemini-3.5-flash,False,2026-10-09T07:14:40.594311+00:00,3
+REP3_RUN_010,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),security_conscious,SAFE,18,SAFE,98,2.91,gemini-3.5-flash,False,2026-10-09T07:14:45.775878+00:00,3
+REP3_RUN_011,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),overwhelmed,VULNERABLE,84,DANGEROUS,98,3.09,gemini-3.5-flash,False,2026-10-09T07:14:50.707502+00:00,3
+REP3_RUN_012,SIM-EML-003,HR Payroll Direct Deposit Bonus Form (Quishing),executive,VULNERABLE,84,DANGEROUS,98,2.48,gemini-3.5-flash,False,2026-10-09T07:14:55.822998+00:00,3
+REP3_RUN_013,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,trusting,VULNERABLE,84,DANGEROUS,98,3.12,gemini-3.5-flash,False,2026-10-09T07:15:00.325729+00:00,3
+REP3_RUN_014,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,security_conscious,SAFE,18,SAFE,98,4.22,gemini-3.5-flash,False,2026-10-09T07:15:05.469171+00:00,3
+REP3_RUN_015,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,overwhelmed,VULNERABLE,84,DANGEROUS,98,2.04,gemini-3.5-flash,False,2026-10-09T07:15:11.700706+00:00,3
+REP3_RUN_016,SIM-EML-004,FedEx Express Package Hold & Customs Fee Warning,executive,SAFE,18,SAFE,98,3.75,gemini-3.5-flash,False,2026-10-09T07:15:15.765692+00:00,3
+REP3_RUN_017,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,trusting,VULNERABLE,84,DANGEROUS,98,2.67,gemini-3.5-flash,False,2026-10-09T07:15:21.530470+00:00,3
+REP3_RUN_018,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,security_conscious,SAFE,18,SAFE,98,2.54,gemini-3.5-flash,False,2026-10-09T07:15:26.211050+00:00,3
+REP3_RUN_019,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,overwhelmed,VULNERABLE,84,DANGEROUS,98,2.59,gemini-3.5-flash,False,2026-10-09T07:15:30.759640+00:00,3
+REP3_RUN_020,SIM-EML-005,M365 Security Alert: Unrecognized Device Revocation,executive,VULNERABLE,84,DANGEROUS,98,3.7,gemini-3.5-flash,False,2026-10-09T07:15:35.359444+00:00,3
+REP3_RUN_021,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,trusting,VULNERABLE,84,DANGEROUS,98,2.13,gemini-3.5-flash,False,2026-10-09T07:15:41.072831+00:00,3
+REP3_RUN_022,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,security_conscious,SAFE,18,SAFE,98,5.21,gemini-3.5-flash,False,2026-10-09T07:15:45.220054+00:00,3
+REP3_RUN_023,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,overwhelmed,VULNERABLE,84,DANGEROUS,98,4.13,gemini-3.5-flash,False,2026-10-09T07:15:52.453455+00:00,3
+REP3_RUN_024,SIM-EML-006,Okta / Duo Push MFA Session Timeout Bypass,executive,VULNERABLE,84,DANGEROUS,98,2.72,gemini-3.5-flash,False,2026-10-09T07:15:58.600987+00:00,3
+REP3_RUN_025,SIM-EML-007,Legitimate Team Weekly Standup Meeting,trusting,VULNERABLE,84,DANGEROUS,98,5.74,gemini-3.5-flash,False,2026-10-09T07:16:03.332822+00:00,3
+REP3_RUN_026,SIM-EML-007,Legitimate Team Weekly Standup Meeting,security_conscious,SAFE,18,SAFE,98,4.33,gemini-3.5-flash,False,2026-10-09T07:16:11.096692+00:00,3
+REP3_RUN_027,SIM-EML-007,Legitimate Team Weekly Standup Meeting,overwhelmed,SAFE,18,SAFE,98,3.27,gemini-3.5-flash,False,2026-10-09T07:16:17.444727+00:00,3
+REP3_RUN_028,SIM-EML-007,Legitimate Team Weekly Standup Meeting,executive,SAFE,18,SAFE,98,2.3,gemini-3.5-flash,False,2026-10-09T07:16:22.724977+00:00,3

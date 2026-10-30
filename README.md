@@ -1,310 +1,189 @@
 # 🛡️ SemanticShield AI
 
-**An Intelligent Agent for Phishing Simulation and Behavioral Threat Analysis**
+> **An Intelligent Agentic AI-Powered Platform for Phishing Simulation, Behavioral Threat Analysis, and Real-Time Browser Protection.**
 
-SemanticShield AI simulates how different types of employees react to the same phishing email, then classifies the resulting threat. The same email can be harmless to a security-aware developer and dangerous to a trusting HR manager. This project makes that difference visible and measurable.
-
----
-
-## 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [How It Works](#-how-it-works)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
-- [API Reference](#-api-reference)
-- [Behavioral Profiles](#-behavioral-profiles)
-- [Screenshots](#-screenshots)
-- [Roadmap](#-roadmap)
-- [Team](#-team)
-- [Disclaimer](#-disclaimer)
+[![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109.0+-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-18.0+-61DAFB.svg?logo=react)](https://react.dev/)
+[![Manifest V3](https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-4285F4.svg?logo=googlechrome)](https://developer.chrome.com/docs/extensions/mv3/intro/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 🔍 Overview
-
-Most phishing tools only answer one question: *"Is this email malicious?"*
-SemanticShield AI also asks: ***"Who would fall for it, and why?"***
-
-The system has two parts:
-
-1. **Phishing Simulation Agent:** An LLM-driven agent (Gemini) role-plays an employee with a specific job role and behavioral profile, reads a phishing email, and reasons out loud before deciding whether it is **VULNERABLE** or **SAFE**.
-2. **Behavioral Threat Analysis:** The simulation result goes through a multi-agent risk engine that categorizes the threat, scores its severity, and logs it as an incident for review.
+## 📌 1. Project Title
+**SemanticShield AI**: *An Intelligent Agent for Phishing Simulation and Behavioral Threat Analysis*
 
 ---
 
-## ✨ Key Features
+## 🎯 2. Project Objective
+SemanticShield AI protects users against modern AI-driven social engineering, spear-phishing, brand impersonation, and deceptive web content in real time. 
 
-- 🎭 **4 behavioral employee profiles** that react differently to the same email
-- 🧠 **Real-time streaming** of the agent's reasoning, so you see it think step by step
-- 📊 **Multi-agent risk scoring** (Semantic + Behavior + URL Intelligence)
-- 🚨 **Automatic incident creation**, with simulations flagged separately from real threats
-- 📡 **Live updates** over WebSockets
-- 🗂️ **Activity feed and audit trail** for every simulation run
-- 🧱 **Clean Architecture**: domain, services, orchestrator and API layers are separated
+Traditional blocklists suffer from zero-day latency against ephemeral phishing domains. SemanticShield AI addresses this by deploying a **multi-agent Agentic AI orchestration pipeline** powered by Google Gemini LLMs to evaluate deep semantic intent, psychological coercion, and subtle behavioral manipulation directly inside the browser and executive SOC dashboard.
 
 ---
 
-## ⚙️ How It Works
+## 🏗️ 3. Architecture Overview
 
-```
-Scenario + Role + Profile + Email
-              │
-              ▼
-   Phishing Simulation Engine
-              │
-              ▼
-   Gemini API (streamed reasoning)
-              │
-              ▼
-   Decision: [VULNERABLE] / [SAFE]
-              │
-              ▼
-   Risk Engine (weighted multi-agent scoring)
-              │
-              ▼
-   Incident Manager + Activity Feed
-              │
-              ▼
-   WebSocket broadcast → React UI
+SemanticShield AI utilizes a three-tier decoupled architecture:
+
+```mermaid
+graph TD
+    A["🌐 Web Page (Chrome Browser)"] -->|1. Scrape DOM & Text| B["🔌 Sentinel Web Guard Extension"]
+    B -->|2. HTTP POST /api/v1/analyze| C["⚡ FastAPI Gateway (backend/app/main.py)"]
+    D["💻 Executive SOC Dashboard (React)"] -->|3. REST API / WebSockets| C
+    C -->|4. Dispatch Request| E["🧠 Supervisor Agent"]
+    
+    subgraph Multi_Agent_Orchestrator ["🤖 Multi-Agent Orchestrator Pipeline"]
+        E -->|Concurrent Execution| F["🔮 Semantic Agent (Gemini)"]
+        E -->|Concurrent Execution| G["🎭 Behavior Agent"]
+        E -->|Concurrent Execution| H["🌐 URL Intelligence Agent"]
+    end
+    
+    F -->|5. Weighted Composite Score| I["⚖️ Risk Assessment Engine"]
+    G -->|5. Urgency & Coercion Score| I
+    H -->|5. Technical Heuristic Score| I
+    
+    I -->|6. JSON Rationale & Indicators| C
+    C -->|7. Real-Time Response| B
+    C -->|7. Live Data Feed| D
 ```
 
-**Risk Engine weights**
-
-| Agent | Weight |
-|---|---|
-| Semantic Analysis | 40% |
-| Behavior Analysis | 25% |
-| URL Intelligence | 35% |
-
-**Risk thresholds**
-
-| Score | Level |
-|---|---|
-| ≥ 65 | 🔴 Dangerous |
-| ≥ 35 | 🟡 Suspicious |
-| < 35 | 🟢 Safe |
-
 ---
 
-## 🧰 Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Backend | Python 3.10+, FastAPI |
-| LLM | Google Gemini API |
-| Validation | Pydantic v2 |
-| Database | SQLite (SQLAlchemy + Alembic migrations) |
-| Frontend | React |
-| Real-time | WebSockets |
-
----
-
-## 📁 Project Structure
+## 📁 4. Project Folder Structure
 
 ```
 SemanticShield-AI/
-├── backend/
-│   ├── app/
-│   │   ├── api/v1/endpoints/
-│   │   │   └── phishing_simulation.py
-│   │   ├── engines/
-│   │   │   └── risk_engine.py
-│   │   ├── orchestrator/
-│   │   │   └── supervisor.py
-│   │   ├── schemas/
-│   │   │   └── phishing_simulation.py
-│   │   ├── services/
-│   │   │   ├── phishing_simulation/
-│   │   │   │   ├── engine.py
-│   │   │   │   ├── gemini_handler.py
-│   │   │   │   └── system_prompts.py
-│   │   │   ├── incident_management/
-│   │   │   ├── activity/
-│   │   │   ├── websocket/
-│   │   │   └── storage/
-│   │   └── main.py
-│   ├── alembic/
-│   ├── requirements.txt
-│   └── .env.example
-├── frontend/
-│   ├── src/
-│   └── package.json
-└── README.md
+├── frontend/             # Single-Page React Application (Vite + TypeScript + Tailwind)
+│   ├── src/              # React Source Code (Components, Pages, Hooks, Contexts)
+│   ├── public/           # Static Public Assets
+│   ├── index.html        # HTML Root Entry
+│   ├── package.json      # Dependencies Manifest
+│   ├── vite.config.ts    # Vite Build Configuration
+│   └── tsconfig.json     # TypeScript Settings
+│
+├── backend/              # Clean Architecture Python Backend
+│   ├── app/              # Core Application Package (api, services, agents, domain)
+│   ├── tests/            # Automated Unit & Integration Test Suite
+│   ├── requirements.txt  # Python Dependencies
+│   └── main.py           # Entrypoint Shim
+│
+├── extension/            # Manifest V3 Chrome Extension (Sentinel Web Guard)
+│   ├── manifest.json     # Extension Configuration & Permissions
+│   ├── background.js     # Service Worker Background Event Listener
+│   ├── content.js        # Web Page DOM Content Extractor & Alert Injector
+│   └── popup/            # High-Tech Extension Popup UI
+│
+├── docs/                 # Platform Technical Documentation
+│   ├── ARCHITECTURE.md   # Architectural Deep Dive
+│   ├── SETUP.md          # Setup & Installation Guide
+│   ├── DEMO_SCRIPT.md    # 13-Step Live Demonstration Walkthrough
+│   └── PROJECT_HANDOFF.md# Milestone Status & Handoff Document
+│
+├── tests/                # Top-Level Integration Test Runners
+│   └── integration/      # Integration Test Manifests
+│
+├── .env.example          # Environment Variable Configuration Template
+├── .gitignore            # Master Repository GitIgnore Rules
+├── README.md             # Master Project Documentation
+└── DEMO_SCRIPT.md        # Quick Reference Demonstration Script
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ 5. Frontend Setup
 
-### Prerequisites
-
-- Python 3.10 or higher
-- Node.js 18 or higher
-- A [Gemini API key](https://aistudio.google.com/) (the free tier works)
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/SemanticShield-AI.git
-cd SemanticShield-AI
-```
-
-### 2. Set up the backend
-
-```bash
-cd backend
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
-cp .env.example .env      # then add your API keys
-uvicorn app.main:app --reload
-```
-
-The backend runs at `http://localhost:8000`. Interactive API docs are at `http://localhost:8000/docs`.
-
-### 3. Set up the frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-The frontend runs at `http://localhost:3000`.
+1. Open terminal and navigate to `frontend/`:
+   ```bash
+   cd frontend
+   ```
+2. Install npm packages:
+   ```bash
+   npm install
+   ```
+3. Run local Vite server:
+   ```bash
+   npm run dev
+   ```
+   App accessible at `http://localhost:5173`.
 
 ---
 
-## 🔐 Environment Variables
+## ⚡ 6. Backend Setup
 
-Create a `.env` file inside `backend/`:
+1. Open terminal and navigate to `backend/`:
+   ```bash
+   cd backend
+   ```
+2. Create and activate virtual environment:
+   ```bash
+   python -m venv venv
+   # On Windows:
+   .\venv\Scripts\activate
+   # On Linux/macOS:
+   source venv/bin/activate
+   ```
+3. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run server:
+   ```bash
+   python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+   ```
+   API Docs available at `http://127.0.0.1:8000/docs`.
 
+---
+
+## 🔌 7. Browser Extension Setup
+
+1. Open Chrome and go to `chrome://extensions`.
+2. Enable **Developer Mode** (top-right toggle).
+3. Click **Load unpacked** (top-left).
+4. Select the `extension/` directory.
+
+---
+
+## 🔑 8. Environment Variables
+
+Copy `.env.example` to `.env` in the root or `backend/` folder:
 ```env
-GEMINI_API_KEY=your_gemini_api_key
-VIRUSTOTAL_API_KEY=your_key_optional
-ABUSEIPDB_API_KEY=your_key_optional
-URLSCAN_API_KEY=your_key_optional
-WHOIS_API_KEY=your_key_optional
-
 ENVIRONMENT=development
-DEBUG=true
-HOST=0.0.0.0
 PORT=8000
-SECRET_KEY=change_this_to_a_random_string
-ALLOWED_ORIGINS=http://localhost:3000
+HOST=127.0.0.1
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+VIRUSTOTAL_API_KEY=your_virustotal_api_key_here
 ```
-
-> ⚠️ **Never commit your `.env` file.** Only `.env.example` (with empty values) belongs in the repo.
-
----
-
-## 📡 API Reference
-
-### Run a phishing simulation
-
-`POST /api/v1/phishing-simulation/simulate`
-
-**Request**
-
-```json
-{
-  "scenario": "Microsoft 365 Credential Harvest",
-  "employee_role": "HR Manager",
-  "behavior_profile": "trusting",
-  "email_subject": "Urgent: Verify Your Account",
-  "email_body": "Your account will be suspended in 24 hours..."
-}
-```
-
-**Response**
-
-```json
-{
-  "simulation_id": "uuid",
-  "agent_reasoning": "Full step-by-step reasoning from the agent...",
-  "agent_decision": "VULNERABLE",
-  "threat_category": "Phishing - Credential Harvest",
-  "threat_severity": "CRITICAL",
-  "confidence_score": 94,
-  "duration_seconds": 3.2,
-  "is_simulation": true
-}
-```
-
-**Status codes:** `200` success · `400` invalid input · `503` LLM unavailable · `504` LLM timeout
-
-### Other endpoints
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| GET | `/health` | Health check |
-| GET | `/api/v1/status` | System status |
-| GET | `/api/v1/incidents` | List incidents |
-| WS | `/api/dashboard/ws/*` | Live dashboard, incident and activity channels |
+*Note: If `GEMINI_API_KEY` is not configured, the backend automatically operates in offline heuristic mock mode.*
 
 ---
 
-## 🎭 Behavioral Profiles
+## 🚀 9. How to Run Locally
 
-| Profile | Role | Typical behavior |
-|---|---|---|
-| **Trusting** | HR Manager | Assumes internal-looking emails are legitimate |
-| **Security-Conscious** | Developer | Inspects sender domains, headers and links |
-| **Overwhelmed** | Finance Manager | Rushes under workload and time pressure |
-| **Executive** | VP | Acts on authority and urgency, delegates checks |
-
-**Attack scenarios:** Microsoft 365 credential harvest · Wire transfer fraud · Executive impersonation · QR code phishing
+Start all components concurrently:
+1. **Terminal 1**: Backend -> `cd backend` -> `python -m uvicorn app.main:app --reload`
+2. **Terminal 2**: Frontend -> `cd frontend` -> `npm run dev`
+3. **Browser**: Load `extension/` unpacked in Chrome.
 
 ---
 
-## 🖼️ Screenshots
+## 📡 10. How Frontend Communicates with Backend
 
-> Add your screenshots to a `docs/screenshots/` folder and link them here.
-
-| Simulation Setup | Live Analysis |
-|---|---|
-| ![Setup](docs/screenshots/setup.png) | ![Analysis](docs/screenshots/analysis.png) |
+- **REST API (`http://127.0.0.1:8000/api/*`)**: The React frontend uses Axios HTTP clients to trigger URL scans, email MIME uploads, file analyses, incident updates, and PDF report downloads.
+- **WebSockets (`ws://127.0.0.1:8000/ws/dashboard`)**: Maintains a persistent WebSocket channel broadcasting real-time activity feed events, threat alerts, and system health status.
 
 ---
 
-## 🗺️ Roadmap
+## 🔌 11. How Extension Communicates with Backend
 
-- [x] Multi-agent risk engine and incident management
-- [x] Phishing simulation module with 4 behavioral profiles
-- [x] Streaming agent reasoning
-- [x] SQLite persistence with migrations
-- [x] Two-panel simulation UI
-- [ ] Migrate SQLite → Supabase
-- [ ] Authentication and multi-user support
-- [ ] Exportable training reports per employee profile
-- [ ] Cloud deployment
+- **DOM Extraction**: The `content.js` content script extracts active web page URL, headline text, and form inputs upon user navigation.
+- **Background Event Worker**: `background.js` forwards the scraped JSON payload via `HTTP POST` to `http://127.0.0.1:8000/api/v1/analyze`.
+- **Badge & Popup Update**: Upon receiving the composite risk score, `background.js` updates the Chrome badge color (Green/Yellow/Red) and populates `popup/popup.html`.
 
 ---
 
-## 👥 Team
+## 📊 12. Current Project Status
 
-**Malla Reddy University** · Dept. of Cyber Security, ECE & IoT
-
-- K. Mani Tej Kumar
-- Ch. Avinash
-- K. Kowshik
-
----
-
-## ⚠️ Disclaimer
-
-SemanticShield AI is built for **educational and defensive security research only**. The phishing scenarios are simulations intended to improve security awareness. Do not use this tool to target real individuals or organizations.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+- **Milestone 1**: Completed (Core Engine, Supervisor Agent, Extension & FastAPI Gateway)
+- **Milestone 2**: Completed (SOC Dashboard, WebSockets, Threat Intel Plugins & Health Telemetry)
+- **Milestone 3**: Completed / In Progress (Phishing Simulation Lab, Behavioral Threat Analysis & AI Assistant)
