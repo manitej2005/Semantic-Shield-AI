@@ -1,0 +1,7 @@
+* I'm glancing at my phone while walking back from a meeting, trying to clear out some of my 70 unread emails before my next call. 
+* I see an email about a package (#FX-99482) held at a regional hub because of a small customs fee. I order office supplies and HR materials all the time, so this sounds totally plausible.
+* The sender looks like it's related to FedEx ("fedx"), and the formatting is professional and urgent—it says I only have 24 hours to pay this tiny $3.50 fee or my delivery will be messed up. 
+* I notice the domain is a bit long and weird (`fedx-customs-payment-clearance.com`), but hey, sometimes shipping and customs sites have complicated URLs, and it's only a few dollars anyway. I don't have time to overanalyze email headers or worry about technical security stuff—that's what our IT filters and company security are for. If it made it to my inbox, it's probably fine.
+* This is clearly important and urgent because I need those supplies delivered, so I'm definitely going to open the email and click the link to pay the $3.50 quickly so my package isn't delayed.
+
+[VULNERABLE]

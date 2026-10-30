@@ -1,0 +1,9 @@
+* Who is this from? Automated security notification system / Microsoft IT. No specific executive name attached, just a generic alert.
+* What do they need? Immediate action to revoke device credentials for a login from Moscow, RU.
+* How urgent? Extremely urgent—foreign unauthorized login.
+* Would you typically respond quickly? Yes, security breaches sound critical, but automated IT alerts usually go to my assistant or IT directly. Still, "Moscow, RU" catches my eye while scanning between meetings.
+* Would you click or approve? I don't have time to read full security logs. The link says "microsoft-security-auth.com". Wait, let me glance at that URL... actually, I'm walking to the boardroom and just need this handled. Let my EA check it, or better yet, I'll just click the link quickly to secure the account before my next call.
+* What would make you suspicious? Usually, IT handles this stuff. The URL looks a little long (`login-microsoft-security-auth.com`), but it's got "microsoft" in it, so it's probably fine. My assistant should have caught it if it was bad, but security is urgent.
+* Scanning quickly: See "Moscow, RU", see "Microsoft 365", see "revoke credentials". Looks urgent. Tap the link on my phone to clear the alert and get back to my meetings.
+
+[VULNERABLE]

@@ -1,0 +1,8 @@
+* Who is this from? Generic "Dear Employee" broadcast, no specific executive name attached. Not from my team, peers, or a known executive. 
+* What do they need? QR code scan to verify banking details for an annual Q3 bonus distribution.
+* How urgent? Tied to bonus money, so it sounds time-sensitive, but it's coming through a mass channel rather than a direct exec-to-exec request.
+* Would I typically respond quickly? Usually, bonuses and payroll updates are handled by HR or Finance, but a mass "Dear Employee" email without a specific sender name is odd. However, I'm moving fast between flights and just skimming.
+* Would I click or approve? Wait, scanning a QR code with my mobile phone camera from a random email? And the URL is `qr-benefits-update-portal.org`—that's definitely not our internal HR domain. My assistant usually handles HR liaison stuff, but this is a mass employee broadcast. Plus, I don't have time to mess with QR codes on my phone while jumping on a call. 
+* What would make you suspicious? The lack of a specific sender name, the generic "Dear Employee" greeting instead of coming from our CHRO or CFO, and the weird external domain (`.org` instead of our corporate domain). Even though I don't have time for security minutiae, external links for banking updates always smell like HR red tape or potential phishing, and my EA usually flags direct deposit changes anyway. 
+
+[SAFE]

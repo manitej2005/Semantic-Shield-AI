@@ -1,0 +1,9 @@
+- Oh great, another delivery notification. My inbox is already at 142 unread messages and it's only 4 PM. I ordered office supplies last week, this must be that toner.
+- Skimming the subject: "Delivery Failed: Package #FX-99482 Held at Regional Hub." Okay, urgent, needs action within 24 hours. Don't have time for this, I need that toner for tomorrow's board meeting packets.
+- Sender looks fine at a glance, mentions FedEx (well, "fedx" in the URL, whatever, close enough). 
+- It's just a tiny $3.50 customs fee. Who cares about three bucks? I'll just put my corporate card in and get it over with so the package actually arrives. IT probably blocks bad stuff anyway, and management hates when supplies are delayed.
+- Do I notice any risks? The URL looks a bit weird, maybe spelled funny, but I literally do not have the brain capacity to care right now. I've been working since 7 AM and just want this cleared.
+- Click the link? Yes, need to pay this $3.50 immediately to avoid delivery failure.
+- Enter credentials / payment info? Yes, quick credit card entry to clear the block. No time to verify with the vendor.
+
+[VULNERABLE]

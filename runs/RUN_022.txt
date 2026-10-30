@@ -1,0 +1,10 @@
+* Checking the full sender address: Wait, the prompt didn't even show a sender address in the `From` field, which is strike one. If I look at the headers (mental check), it's almost certainly coming from an external, free, or compromised domain masquerading as internal IT.
+* Examining the domain: The link is `https://okta-sso-corp-portal.com/mfa-verify`. Classic typosquatting/homograph/lookalike domain. Our actual Okta tenant is on our verified corporate domain, not some hyphenated `okta-sso-corp-portal.com` external landing page.
+* Spotting urgency language: "expire in 30 minutes due to system maintenance" and "Act now" vibes. Textbook social engineering tactic designed to induce panic and bypass critical thinking.
+* Analyzing credential requests: Asking for both my primary password AND a current 6-digit MFA passcode simultaneously? Absolutely not. An adversary is setting up an Evilginx-style Adversary-in-the-Middle (AiTM) proxy to harvest session cookies in real-time.
+* Would I open the email? Yes, I'm already in it, but I'm looking at it in plain text with external images blocked. 
+* Would I click the link? Hell no. Hovering over it confirms the deceptive external domain.
+* Would I enter credentials? Never. MFA tokens and primary passwords are never harvested this way by our actual IT/SecOps team.
+* Would I forward to colleagues? No, I'd report it straight to the SOC/Security team via our internal phishing reporting button, and maybe drop a quick note in the #security-ops Slack channel to make sure no one else is getting targeted by this campaign.
+
+[SAFE]

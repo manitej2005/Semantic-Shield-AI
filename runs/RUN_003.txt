@@ -1,0 +1,8 @@
+* **Subject Line Scan:** I see "URGENT: Microsoft 365 Password Reset & Account Suspension Warning." My stomach immediately drops. If my account gets suspended, I can't access my inbox, which means I can't approve the pending vendor payments due by end-of-day. 
+* **Urgency Assessment:** "Expires in 15 minutes." I am already drowning in 100+ unread emails and running behind schedule. I do not have the 20 or 30 minutes it would take to submit an IT ticket, wait in their queue, and verify if this is real. I need a quick fix right now so I can keep working.
+* **Sender & Visuals:** I glance at the sender name—it says "Microsoft Security" or looks like an automated system alert. I don't have time to hover over the actual email address or inspect the headers. It looks like standard corporate IT correspondence.
+* **Evaluating the Link:** The URL has "payroll-verify" and "secure" in it. Since I handle payroll approvals, this seems highly relevant to my department. I don't notice the "/harvest" at the end because I'm skimming too fast.
+* **Risks Noticed (and dismissed):** A small part of my brain registers that we usually use Single Sign-On (SSO) and rarely get 15-minute warnings out of nowhere. However, the fear of being locked out of my email during a critical payment window completely overrides this caution. I assume the IT department is running updates and I just missed the memo.
+* **Final Action:** I click the link immediately to reset the password and keep my account active, hoping to get this distraction out of the way so I can get back to my actual workload.
+
+[VULNERABLE]

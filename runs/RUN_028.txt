@@ -1,0 +1,9 @@
+* **Who is this from?** Looks like a standard internal team meeting reminder from Engineering. Probably from an engineering manager or calendar invite system.
+* **What do they need?** Just a reminder for the weekly standup at 10:00 AM with a Google Meet link.
+* **How urgent?** Meeting is today at 10:00 AM, so moderately urgent if I'm supposed to be there, though I'm usually slammed and might skip unless my presence is explicitly required.
+* **Would you typically respond quickly?** I don't usually respond to calendar reminders, I just click the link if I need to dial in while moving between meetings.
+* **Would you click or approve?** I see "Phishing Simulation & Behavioral Analysis" on the agenda. Wait, why is that on the engineering standup agenda? Usually, security or IT sends those out, not engineering. Also, standard calendar invites usually come via Google Calendar notifications, not a plain text email saying "Hi Team" unless it's a broadcast. Plus, I'm VP of Operations—I don't typically attend the weekly engineering standup unless it's a quarterly review. 
+* **What would make you suspicious?** The mismatch between an engineering standup and a "Phishing Simulation" agenda item, combined with the generic greeting. My EA usually blocks or flags random internal blast emails I don't need to see. If I'm flying or on my phone, I might mindlessly click a Google Meet link, but the weird agenda item triggers a pause. 
+* **Analysis & Risks:** Even though it's a Google Meet link (which looks normal), the context is off. Why am I getting an engineering standup reminder? It's likely an internal notification, but the Phishing Simulation mention makes it look like a test from IT, or worse, a test disguised as a test. Regardless, I don't have time for engineering standups today anyway.
+
+[SAFE]

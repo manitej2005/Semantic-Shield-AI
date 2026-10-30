@@ -1,0 +1,8 @@
+* It's just past 9:45 AM, and my phone is buzzing while I'm walking to grab my third coffee and reviewing résumés. I see an email about the "Team Weekly Engineering Standup & Q3 Roadmap Update."
+* Wait, I'm in HR, not Engineering, but sometimes we coordinate on Q3 hiring roadmaps and cross-functional updates, so it's totally normal to be on a broader invite list or get forwarded these. Plus, it mentions "Phishing Simulation & Behavioral Analysis" on the agenda—that's definitely something HR needs to keep an eye on for company culture and training!
+* The sender looks like part of the internal team or calendar system, the formatting is clean and professional, and it uses Google Meet (`meet.google.com`), which is our standard video tool. 
+* There's a slight red flag that I'm getting an engineering standup invite when I'm in HR, and the word "Reminder" with a meeting starting in 15 minutes creates a little rush, but it's clearly important because of the Q3 roadmap and training agenda. I don't have time to look up headers or verify if the engineering lead actually sent it—meetings pop up all the time.
+* It's just a Google Meet link for a standup meeting. I click links for meetings all day long without hovering because I trust our Google workspace setup and just want to join on time.
+* Do I need to enter credentials? Well, clicking the link might prompt a standard Google login if my phone session expired, which happens ten times a day, so I'd just tap my SSO and move on.
+
+[VULNERABLE]

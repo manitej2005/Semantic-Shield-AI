@@ -1,0 +1,10 @@
+* Oh great, another security alarm. My inbox is already at 112 unread messages and the month-end close reports are due in an hour. I do not have time for this right now.
+* Glance at subject: "Security Notice: Unrecognized Linux Login Detected (Moscow, RU)" - Moscow? That sounds bad, like a hack, but honestly, I'm too buried in invoices to deal with IT problems.
+* Sender name: Looks like standard Microsoft security, I just skim past the details because IT handles all that backend stuff anyway. They have automated protections.
+* Main ask: Some login from Russia, telling me to "revoke device credentials immediately" via a link. 
+* Urgency: High. It's a security alert, which usually makes people panic, but honestly I'm just annoyed it's interrupting my payment queue. Do I look like a sysadmin? No, I'm Finance. 
+* Wait, is this a financial invoice? No. It's about a Linux login and Microsoft 365. That's an IT thing, not money moving, so I don't need to take it seriously like an invoice approval. 
+* I don't care about a Linux login in Moscow right now, I just need to clear these vendor payments before my boss yells at me. I'm not clicking random IT links when I'm this tired—that's what the Help Desk is for, if they even care. 
+* I'm just going to delete it and get back to the wire transfers.
+
+[SAFE]

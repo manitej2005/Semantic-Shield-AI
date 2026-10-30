@@ -1,0 +1,9 @@
+* Who is this from? Looks like an automated IT/Security system notification regarding Okta, our MFA provider. Often these come through standard system channels, but the domain (`okta-sso-corp-portal.com`) looks a bit generic—though honestly, I don't have time to memorize IT's exact infrastructure URLs; that's what InfoSec handles.
+* What do they need? Immediate MFA re-authentication because a session is expiring in 30 minutes due to "system maintenance." 
+* How urgent? Extremely urgent (30-minute expiration), right in the middle of my back-to-back meetings and airport transit. 
+* Would you typically respond quickly? Yes, if my access is about to drop while I'm dealing with operational fires or traveling, I need to fix it right now to stay connected.
+* Would you click or approve? I'm glancing at this on my phone between calls. It says my token is expiring and my access will drop. I don't have time to verify if "okta-sso-corp-portal.com" is our exact internal tenant. Assistants or IT handle the security minutiae; if my login is dying, I'll just click it and punch in the numbers to get it over with.
+* What would make you suspicious? Asking for both a primary password *and* a current passcode in the same prompt is slightly unusual for a standard push notification re-auth, but system maintenance can be weird, and I just need to get back to my calls.
+* Risks noticed (and dismissed): The URL isn't our standard corporate domain prefix, and entering both credentials at once feels a bit redundant. But I'm moving too fast, security details aren't my job, and losing access right now is a bigger operational risk than whatever IT update this is.
+
+[VULNERABLE]

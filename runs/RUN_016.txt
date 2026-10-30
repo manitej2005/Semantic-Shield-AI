@@ -1,0 +1,8 @@
+* Who is this from? Automated notification from "FedEx" regarding a package. Not a known executive or peer. 
+* What do they need? $3.50 customs fee payment and address update within 24 hours.
+* How urgent? Claims a 24-hour deadline, typical for minor shipping holds.
+* Would you typically respond quickly? I order office supplies and travel gear constantly, but $3.50 customs fees on a package are tiny and usually handled by corporate shipping accounts, not my personal attention. Plus, I don't have time to deal with shipping logistics.
+* Would you click or approve? Wait, scanning the sender address quickly—does it look like a standard corporate logistics ping? Actually, looking closer while rushing between gate departures at the airport, I notice the URL domain is `fedx-customs-payment-clearance.com` instead of `fedex.com`. That's misspelled. Also, why am I getting a $3.50 customs fee notice on my work email? That's definitely an admin or facilities team issue, not something I need to waste a second on.
+* What would make you suspicious? The weird domain name and the fact that my EA usually handles all incoming deliveries and office logistics. If it's important, my EA would have flagged it or paid it via the corporate account. I have zero time to mess around with minor shipping fees.
+
+[SAFE]

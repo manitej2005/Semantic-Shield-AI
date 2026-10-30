@@ -1,0 +1,8 @@
+* Got an email with the subject "Security Notice: Unrecognized Linux Login Detected (Moscow, RU)" while rushing between candidate interviews on my phone. 
+* It's about Microsoft 365, which is our core system, and mentions Moscow, Russia—that sounds urgent and important since account security is a big deal.
+* The formatting looks professional and official, and it's got "Microsoft" right there in the text, so I trust that our company security systems are working and bringing this to my attention.
+* I see a link that says `https://login-microsoft-security-auth.com/revoke-access`—sure, the domain looks a little long with extra hyphens, and maybe "Linux device in Moscow" sounds a bit weird since I only use my company laptop, but it says "revoke device credentials immediately," so it's clearly an urgent security matter that can't wait.
+* I'm busy, so I'm not going to waste time hovering over the link or checking technical header stuff—who has time for that when my account might be compromised in Russia?
+* I'm opening the email, clicking the link right away to secure my account, and I'll enter my credentials if it asks me to log back in to verify it's really me.
+
+[VULNERABLE]

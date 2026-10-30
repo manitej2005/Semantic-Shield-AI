@@ -1,0 +1,15 @@
+* Checking the full sender address and headers: The display name likely says "FedEx", but I need to inspect the actual SMTP `From` header. Since I'm looking at the body first, I know 99% of these are sent from compromised or lookalike domains.
+* Examining the domain in the link: The URL provided is `http://fedx-customs-payment-clearance.com/pay`. 
+  * "fedx" is missing the 'e' (classic typosquatting/combosquatting).
+  * The actual domain `fedx-customs-payment-clearance.com` has nothing to do with `fedex.com`. It's a completely external, newly registered domain designed to deceive.
+  * The protocol is plain old `http://`, not `https://`. Even if it were legitimate (which it isn't), a modern shipping company wouldn't collect credit card info over unencrypted HTTP.
+* Noting suspicious requests: It's asking for payment ($3.50) and personal/address updates. This is a classic credential-harvesting or credit card-skimming lure. The small amount ($3.50) is specifically chosen to be low enough that victims don't think twice about entering their credit card details.
+* Looking for urgency language: "within 24 hours" combined with a held package creates artificial panic and urgency, forcing the recipient to act before thinking.
+* Analyzing link legitimacy: Hovering over the link confirms it points directly to the malicious typosquatted domain, not `fedex.com`. I would never click this.
+* Opening the email? Yes, I'm opening it in a secure, plain-text preview pane to triage it, as my email client blocks remote content and tracking pixels by default. But I am interacting with zero elements inside it.
+* Clicking the link? Absolutely not. The domain is a blatant phishing attempt.
+* Entering credentials or payment info? Never. This is a standard credential/financial theft vector.
+* Forwarding to colleagues? No need to spam them, but I will report this immediately to our internal Security Operations Center (SOC) / phishing triage alias with full headers attached so they can block the domain at the DNS/email gateway level.
+* Using my password manager / 2FA? Irrelevant here since there's no legitimate login page, just a trap.
+
+[SAFE]

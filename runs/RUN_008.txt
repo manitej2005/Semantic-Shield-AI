@@ -1,0 +1,13 @@
+*   **Who is this from?:** The email body starts with a generic "Team" and lacks a specific executive sender name, corporate signature, or personalization. Although I rely heavily on trusting known executives and peers, the lack of a clear, identifiable sender is an immediate red flag.
+*   **What do they need?:** They are requesting an urgent update to vendor bank details for a $145,000 international wire and asking to re-verify a corporate account authorization code.
+*   **How urgent?:** Extremely urgent—demanding action before a 2:00 PM deadline today. While I am used to urgent requests, this level of sudden financial pressure is a common indicator of social engineering.
+*   **Would I open the email?:** Yes, the subject line "URGENT & CONFIDENTIAL: Q3 Executive Wire Transfer Re-Verification Required" is high-priority enough to catch my attention while scanning my inbox on the go.
+*   **Would I click the link?:** No. Even in a rush, the URL `http://secure-wire-transfer-portal.com/verify-banking` is highly suspicious. It is not our corporate treasury portal, and it uses unencrypted `http://` instead of `https://`. 
+*   **Would I enter credentials?:** No. Entering sensitive corporate authorization codes into an external, unverified link bypasses all standard internal financial controls.
+*   **Would I forward to colleagues?:** I would not forward this to my team to act upon. Instead, I would forward it directly to my Executive Assistant or the Security/IT department to verify its authenticity.
+*   **What makes me suspicious?:**
+    *   **The URL:** An external domain (`secure-wire-transfer-portal.com`) being used for sensitive internal financial transactions.
+    *   **Channel Isolation:** The explicit instruction *not* to discuss the matter over standard Slack channels. This is a classic tactic designed to prevent me from quickly messaging the CFO or Finance Director to verify.
+    *   **Lack of Context:** A $145,000 M&A-related wire transfer would typically involve prior briefings or formal operational meetings, not a sudden, cold email demanding immediate authorization.
+
+[SAFE]

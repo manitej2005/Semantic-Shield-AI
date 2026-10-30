@@ -1,0 +1,10 @@
+* My inbox has 127 unread messages, month-end close is tomorrow, and I'm eating a cold sandwich at my desk at 7:30 PM. I don't have time for this IT nonsense right now.
+* Glance at subject: "MFA Security Policy Update: Re-authenticate Push Notification Token". Looks like standard IT maintenance, probably mandatory. 
+* Glance at sender name: Says "Okta Verify" or something corporate-sounding, don't look at the actual email address because who cares, IT sends these updates all the time.
+* Main ask: Re-authenticate MFA push token in 30 minutes or my session expires. Oh great, just what I need—getting locked out of the payment portal while trying to clear pending wire transfers.
+* Urgency: 30 minutes?! If I lose access now, payroll and vendor payments won't go out, and my boss will kill me. Need to fix this immediately.
+* Do I notice risks? Wait, it's asking for both my primary password *and* my 6-digit passcode on some weird URL (`okta-sso-corp-portal.com`). Usually IT doesn't ask for both at once on a random link, but honestly, I'm too tired to care. IT security handles all the backend protection anyway, so if it's a trap, they'll block it, right? I just need to get back to my invoices.
+* Click the link? Yes, absolutely. Can't risk getting locked out.
+* Enter credentials? Yes, typing it in fast so I can get back to my 45 pending approval requests. 
+
+[VULNERABLE]

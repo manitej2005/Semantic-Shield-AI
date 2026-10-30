@@ -1,0 +1,8 @@
+* **Subject Line Check**: The words "URGENT" and "Wire Transfer" immediately trigger anxiety. It is Q3, we are closing books, and high-value transactions are happening constantly. This looks like a priority task that cannot wait.
+* **Sender Glance**: The email starts with "Team," which makes me assume it is an internal communication from one of our executives or project leads. Due to the volume of my inbox, I only glance at the display name and do not inspect the actual email address header.
+* **The Core Request**: An international wire of $145,000 needs updating before 2:00 PM today. It is already late, my inbox is overflowing, and missing a major transaction deadline would reflect terribly on my performance. The financial risk of delaying the payment feels greater to me than the security risk of acting quickly.
+* **The Link**: The URL `http://secure-wire-transfer-portal.com/verify-banking` contains the word "secure," which looks official enough at a glance. I do not notice that it uses `http://` instead of `https://` or that this domain is not our internal treasury portal.
+* **The Confidentiality Warning**: The instruction not to discuss this over Slack due to "M&A audit protocols" explains why I shouldn't message my colleagues or double-check with the finance team. This relieves my frustration about having to verify and gives me an excuse to handle it quietly and quickly.
+* **Decision-Making**: Overwhelmed by the 2:00 PM deadline and desperate to clear this off my plate so I can log off, I decide to prioritize speed over protocol. I click the link and prepare to enter the corporate credentials to authorized the portal.
+
+[VULNERABLE]

@@ -1,0 +1,12 @@
+* Ping! Another notification while I'm walking to the breakroom holding a stack of new hire paperwork. Let me check my phone real quick.
+* Email is about "MFA Security Policy Update" regarding my Okta Verify push token. It says it expires in 30 minutes due to system maintenance. 
+* Wait, 30 minutes? That sounds pretty urgent, and I definitely don't want my access to HR systems locked out right in the middle of processing payroll and onboarding. 
+* The formatting looks totally professional and official—standard IT department stuff. The domain is `okta-sso-corp-portal.com`, which has "okta" right in the name and sounds totally legitimate for our corporate single-sign-on. 
+* It's asking me to click a link to re-authenticate and put in my primary password and 6-digit passcode. That's a bit annoying that IT is doing this on short notice, but security updates are always a hassle anyway, so I'm not surprised.
+* Do I notice any red flags? Well, asking for both a password and a passcode at the same time is a little unusual, but IT systems change all the time, and the email looks so official that I'm sure it's just the new protocol. Plus, our company security systems and filters wouldn't let a bad email through to my phone anyway, right?
+* Am I going to open the email? Yes, obviously, I'm reading it now.
+* Am I going to click the link? Yes, I need to fix this before my 30-minute timer runs out so I don't get locked out of my work.
+* Am I going to enter my credentials? Yes, I'll type in my password and Duo code real quick so I can get back to my tasks.
+* I'm too busy to worry about this, I just want to clear the notification and keep moving.
+
+[VULNERABLE]

@@ -1,0 +1,11 @@
+* **Subject & Sender Check:** My eyes immediately dart to "Action Required" and "Bonus Distribution." As a Finance Manager, anything related to payroll, direct deposits, or bonuses is my direct responsibility and must be handled quickly to avoid complaints from employees or HR. I glance at the sender name—it looks like an internal system notification, so I don't bother checking the actual email address domain.
+* **The Main Request:** The email asks to update banking details for the Q3 bonus distribution by scanning a QR code. Since we are in the middle of Q3 and I am drowning in urgent pending approvals, I need to get this off my plate immediately so employees get paid on time.
+* **The QR Code Risk:** Normally, scanning a QR code with my personal phone feels a bit unusual for corporate policy, but I am too tired to log into the VPN on my laptop, and using my phone seems faster. I assume IT has filters that would have blocked this email if it were dangerous.
+* **Analyzing the URL:** If I scan it, the link is `qr-benefits-update-portal.org`. It has the word "benefits" and "portal" in it, which sounds official enough. Under my current workload and stress levels, I don't have the mental energy or time to double-check if our official portal ends in `.org` or `.com`.
+* **Decision on Action:** 
+  * **Open the email?** Yes, the subject line demands immediate action regarding bonuses.
+  * **Scan the QR code / Click the link?** Yes. I would scan the QR code with my mobile phone to quickly access the portal and complete the verification, hoping to cross this task off my massive to-do list.
+  * **Enter credentials?** Yes. Once the page loads and looks like a login portal, I would input my credentials to complete the update quickly so I can move on to the next of my 100+ unread emails.
+  * **Forward to colleagues?** I might even forward it to my team if I think they also need to update their forms before the deadline, potentially spreading the risk.
+
+[VULNERABLE]
